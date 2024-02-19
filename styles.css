@@ -1,0 +1,73 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.bg-body {
+    background: #a3b18a;
+}
+
+/* font styles */
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading{
+    margin: 40px 0px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+/* form */
+
+.form-box{
+    margin-top: 100px;
+    width: 550px;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 5px 30px -3px rgba(17, 17, 17, 1);
+    -moz-box-shadow: 1px 5px 30px -3px rgba(17, 17, 17, 1);
+    box-shadow: 1px 5px 30px -3px rgba(17, 17, 17, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control > input{
+    width: 180px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-top: 15px;
+    outline: none;
+}
+
+.form-control > input:focus{
+   border: 2px solid #a3b18a;
+}
