@@ -8,7 +8,6 @@ celsius.oninput = function () {
 }
 
 fahrenheit.oninput = function () { 
-    let c = ((parseFloat( 
-        fahrenheit.value) - 32) * 5) / 9; 
+    let c = ((parseFloat(fahrenheit.value) - 32) * 5) / 9; 
     celsius.value = parseFloat(c.toFixed(2)); 
 } 
